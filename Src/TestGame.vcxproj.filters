@@ -16,10 +16,27 @@
     <Filter Include="Файлы исходного кода\Game">
       <UniqueIdentifier>{d072fd01-4c79-408b-ae02-add63bd11a55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы исходного кода\Engine">
+      <UniqueIdentifier>{cfbbd279-1d6d-4ffd-976e-64ae59fda637}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
     <ClCompile Include="Game\main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
       <Filter>Файлы исходного кода\Game</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
