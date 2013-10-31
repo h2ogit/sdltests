@@ -1,5 +1,14 @@
-﻿Построение начато 29.10.2013 15:51:51.
+﻿Build started 31.10.2013 16:56:38.
+     1>Project "D:\GitHub\sdltests\Src\TestGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"SDL2-2.0.1\include" /Zi /nologo /W3 /WX- /MP /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"TEMP\\" /Fd"TEMP\vc120.pdb" /Gd /TP /errorReport:prompt Engine\Engine.cpp Game\Game.cpp
+     1>cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+         Game.cpp
+     1>Game\Game.cpp(9): error C2512: 'sdltest::Engine' : no appropriate default constructor available
+         Engine.cpp
+         Generating Code...
+     1>Done Building Project "D:\GitHub\sdltests\Src\TestGame.vcxproj" (Build target(s)) -- FAILED.
 
-Построение успешно завершено.
+Build FAILED.
 
-Затраченное время: 00:00:00.04
+Time Elapsed 00:00:01.64

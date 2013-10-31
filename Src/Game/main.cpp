@@ -1,7 +1,12 @@
 #include <iostream>
-#include <Engine/Game.h>
+#include "Game.h"
+
+using namespace sdltest;
+
+Game* _Game = 0;
 
 int main(int argc, char **argv)
 {
-	return 0;
+	_Game = new Game();
+	return _Game->Start();
 }
