@@ -30,6 +30,9 @@
     <ClCompile Include="Game\Game.cpp">
       <Filter>Файлы исходного кода\Game</Filter>
     </ClCompile>
+    <ClCompile Include="Game\NewGame.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\Engine.h">
