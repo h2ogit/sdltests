@@ -3,7 +3,7 @@
 
 using namespace sdltest;
 
-Game* _Game = 0;
+Game* _Game;
 
 int main(int argc, char **argv)
 {

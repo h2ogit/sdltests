@@ -1,10 +1,15 @@
-﻿Build started 31.10.2013 21:57:04.
-     1>Project "D:\Dev\GitHub\sdltests\Src\TestGame.vcxproj" on node 2 (ClCompile target(s)).
+﻿Build started 07.11.2013 18:08:13.
+     1>Project "D:\GitHub\sdltests\Src\TestGame.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"SDL2-2.0.1\include" /Zi /nologo /W3 /WX- /MP /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"TEMP\\" /Fd"TEMP\vc120.pdb" /Gd /TP /errorReport:prompt Engine\Engine.cpp
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"SDL2-2.0.1\include" /Zi /nologo /W3 /WX- /MP /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"TEMP\\" /Fd"TEMP\vc120.pdb" /Gd /TP /errorReport:prompt Engine\Engine.cpp
          Engine.cpp
-     1>Done Building Project "D:\Dev\GitHub\sdltests\Src\TestGame.vcxproj" (ClCompile target(s)).
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\TestGamex64Debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:"SDL2-2.0.1\lib\x64" SDL2.lib SDL2main.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\TestGamex64Debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\TestGamex64Debug.lib" /MACHINE:X64 TEMP\Engine.obj
+         TEMP\Game.obj
+         TEMP\main.obj
+         TestGame.vcxproj -> D:\GitHub\sdltests\Src\..\bin\TestGamex64Debug.exe
+     1>Done Building Project "D:\GitHub\sdltests\Src\TestGame.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.33
+Time Elapsed 00:00:01.01

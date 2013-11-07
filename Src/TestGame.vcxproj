@@ -22,10 +22,10 @@
     <ClCompile Include="Engine\Engine.cpp" />
     <ClCompile Include="Game\Game.cpp" />
     <ClCompile Include="Game\main.cpp" />
-    <ClCompile Include="Game\NewGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\GameEngine.h" />
     <ClInclude Include="Game\Game.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

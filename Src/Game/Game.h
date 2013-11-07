@@ -3,13 +3,13 @@
 
 namespace sdltest
 {
-	class Engine;
+	class CGameEngine;
 
 	class Game
 	{
 
 	public:
-		Engine* _Engine;
+		CGameEngine* _Engine;
 		int Start();
 
 	private: 
